@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  color: red;
+}
+.edge {
+  padding: 0 2rem;
+}
+ol li,
+ul li {
+  list-style: none;
+}
+main {
+  background-color: rgb(2, 48, 2);
+}
+/* HEADER NAVBAR */
+.navbar {
+  background-color: rgb(100, 7, 7);
+  display: flex;
+  height: 4rem;
+  align-items: center;
+}
+.navbar ul li a {
+  color: white;
+}
+
+.navbar ul li,
+a {
+  list-style: none;
+  text-decoration: none;
+  justify-content: end;
+}
+.navbar ul {
+  justify-content: end;
+  width: 100%;
+}
+.logo {
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+}
+.font {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+  padding: 0 1rem;
+}
+
+.fonts {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
+  padding: 0 2rem;
+}
+
+.my-intro,
+.about-me,
+.my-tec,
+.my-project,
+.contact-me,
+.my-prices {
+  text-align: center;
+  margin: 1.2rem 0;
+  background-color: #f0efed;
+  padding: 1rem 0;
+}
+
+.first-sec,
+.first-sec p {
+  display: flex;
+  padding: 0 2rem;
+  margin: 1rem 0;
+  background-color: #f5f5f5;
+}
+.first-sec img {
+  width: 50%;
+}
+.first-sec p {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+}
+.size-edge {
+  width: 40%;
+}
+.size-edge-img {
+  width: 60%;
+}
+
+/* ABOUT ME SECTION  */
+
+.section p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+  padding: 0 1rem;
+}
+.flex {
+  display: flex;
+}
+.img-size {
+  height: 10rem;
+  width: 10rem;
+}
+.flex li {
+  padding: 1.5rem;
+}
+
+/* my PROJECT */
+.lenthy {
+  width: 10rem;
+}
+.foot {
+  background-color: #4b0909;
+  text-align: center;
+  color: white;
+}
+
+/* my CONTACT PAGE */
+fieldset {
+  padding: 1rem 0;
+  border: 1px solid limegreen;
+  padding: 0;
+}
+label {
+  font-size: 1.3rem;
+  padding-left: 0.4rem;
+}
+
+input {
+  padding: 0.7rem;
+  border: none;
+
+  border-bottom: 1px solid rgb(100, 7, 7);
+  width: 50%;
+  margin: 1rem 0;
+}
+
+textarea {
+  /* padding: 5rem; */
+  padding: 4rem;
+  width: 30%;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 1px solid red;
+  border-right: 1px solid red;
+  margin-left: 5rem;
+}
+input:hover {
+  border: none;
+  border-bottom: limegreen;
+}
+
+button {
+  padding: 0.7rem;
+  background-color: rgb(100, 7, 7);
+  border-radius: 5px;
+  margin-top: -5rem;
+  margin-left: 35rem;
+}
+table {
+  width: 70%;
+  align-items: center;
+  margin: 1rem auto;
+}
+th,
+td {
+  padding: 1rem;
+  text-align: left;
+}
+.lenthy {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: white;
+}
+
+.white {
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
